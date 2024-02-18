@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+        <link rel="stylesheet" href="./style.css"/>
+</head>
+<header>
+
+    <body>
+        <!--this a navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top p-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Bella Cucina Trattoria </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 active" aria-current="page" href="#hero">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="#menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="#about">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+</header>
+
+<!--this a hero section-->
+<section id="hero">
+    <div id="intro-example" class="p-5 text-center bg-image"
+        style="background-image: url('./image/téléchargement.jpg');">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white">
+                    <h1 class="mb-3">Bella Cucina Trattoria</h1>
+                    <h5 class="mb-4">
+                        Bella Cucina Trattoria welcomes guests with a warm and inviting ambiance. The interior is
+                        adorned with rustic Italian décor, featuring earthy tones, exposed brick walls, and soft,
+                        ambient lighting. Classic Italian music plays softly in the background, creating a cozy and
+                        intimate atmosphere.
+                    </h5>
+                    <a class="btn btn-outline-light btn-lg m-2" href="https://www.youtube.com/watch?v=c9B4TPnak1A"
+                        role="button" rel="nofollow" target="_blank">Start tutorial</a>
+                    <a class="btn btn-outline-light btn-lg m-2" href="https://mdbootstrap.com/docs/standard/"
+                        target="_blank" role="button">Download MDB UI KIT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--menu section-->
+
+
+<section id="menu">
+<h1>Menu</h1>
+
+<div class="menu-container">
+    <div class="menu-item">
+      <img src="./image/Margherita Pizza.jpg" alt="Item 1">
+      <div class="menu-item-info">
+        <div class="menu-item-title">pizza margherita</div>
+        <div class="menu-item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+        <div class="menu-item-price">15 dt </div>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="./image/Spaghetti Bolognese.jpg" alt="Item 2">
+      <div class="menu-item-info">
+        <div class="menu-item-title">spagheti bolognese</div>
+        <div class="menu-item-description">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+        <div class="menu-item-price">25 dt</div>
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="./image/lasagne.jpg" alt="Item 3">
+      <div class="menu-item-info">
+        <div class="menu-item-title">Lasagnes à la bolognaise</div>
+        <div class="menu-item-description">Layer Bolognese sauce, lasagna sheets, cheese (mozzarella and Parmesan) in a baking dish</div>
+        <div class="menu-item-price">20 dt</div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--about section-->
+<section id="about">
+    <h1>
+        About us
+    </h1>
+    <div class="container">
+        <div class="column">
+          <img src="./image/téléchargement.jpg" alt="Restaurant Image">
+        </div>
+        <div class="column">
+          <p>
+            Welcome to Bella Cucina Trattoria, where we strive to provide a delightful dining experience. Our chefs use the finest ingredients to create mouthwatering dishes that cater to various tastes.
+          </p>
+          <p>
+            Whether you're a fan of traditional classics or adventurous flavors, our menu has something for everyone. Join us for a culinary journey that combines quality, creativity, and a welcoming atmosphere.
+          </p>
+        </div>
+      </div>
+    
+</section>
+<!--contact ubs-->
+<section id="contact">
+    <h1>contact us</h1>
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+    
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+    
+          <div class="form-group">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+</section>
+<!--footer-->
+<section>
+    <footer class="text-center bg-body-tertiary">
+        <!-- Grid container -->
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4" id="icons">
+            <!-- Facebook -->
+            <a
+              data-mdb-ripple-init
+              class="btn btn-link btn-floating btn-lg text-body m-1"
+              href="https://www.facebook.com/bilel.benhlel.12/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              data-mdb-ripple-init
+              class="btn btn-link btn-floating btn-lg text-body m-1"
+              href="https://www.instagram.com/bilelbenhlel/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              data-mdb-ripple-init
+              class="btn btn-link btn-floating btn-lg text-body m-1"
+              href="https://www.linkedin.com/in/benhlel-bilel-6ba7672b1/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              data-mdb-ripple-init
+              class="btn btn-link btn-floating btn-lg text-body m-1"
+              href="https://github.com/bilelaa"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2020 Copyright:
+          <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    
+</section>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/71859bd28e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
